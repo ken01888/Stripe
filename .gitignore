@@ -1,6 +1,4 @@
-# dependencies
-node_modules/
-
-# production bundles
+.env
+public/js/index.html
 dist/
-public/js/app.js
+src/server/routes.ts
