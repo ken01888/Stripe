@@ -2,7 +2,7 @@ import * as express from 'express';
 import Stripe from 'stripe'
 
 
-const stripe = new Stripe('sk_test_51Ib5r2Jnvz5Of8yMBof7bBB2peQrkWMk2f7sISHpUqDxPm03fOSzYdCUZJYHx9vEBSxRTV0Uwgdq645fSBowyFHy00jAaRw3Cw',{apiVersion:'2020-08-27'})
+const stripe = new Stripe(your api key)
 const router = express.Router();
 
 router.post('/api/donate', async (req, res, next) => {
